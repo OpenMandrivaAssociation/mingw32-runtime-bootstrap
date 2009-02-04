@@ -7,7 +7,7 @@
 
 Name: mingw32-runtime-bootstrap
 Version: 1
-Release: %mkrel 1
+Release: %mkrel 2
 Summary: MinGW Windows bootstrap (binary package)
 
 Group: Development/Other
@@ -19,8 +19,8 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildArch: noarch
 
-#Provides: mingw32-runtime = %{runtime_version}
-#Provides: mingw-runtime = %{runtime_version}
+Provides: mingw32-runtime = %{runtime_version}
+Provides: mingw-runtime = %{runtime_version}
 
 
 %description
