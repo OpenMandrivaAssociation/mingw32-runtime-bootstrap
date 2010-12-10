@@ -7,7 +7,7 @@
 
 Name: mingw32-runtime-bootstrap
 Version: 1
-Release: %mkrel 3
+Release: %mkrel 4
 Summary: MinGW Windows bootstrap (binary package)
 
 Group: Development/Other
