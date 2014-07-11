@@ -15,6 +15,8 @@ License: Public Domain
 URL: http://www.mingw.org/
 
 Source0: http://dl.sourceforge.net/sourceforge/mingw/mingwrt-%{runtime_version}-mingw32.tar.gz
+Source1:  mingw32-runtime-bootstrap.rpmlintrc
+
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 BuildArch: noarch
