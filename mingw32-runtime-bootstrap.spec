@@ -12,7 +12,7 @@ Summary: MinGW Windows bootstrap (binary package)
 
 Group: Development/Other
 License: Public Domain
-URL: http://www.mingw.org/
+URL: https://www.mingw.org/
 
 Source0: http://dl.sourceforge.net/sourceforge/mingw/mingwrt-%{runtime_version}-mingw32.tar.gz
 Source1:  mingw32-runtime-bootstrap.rpmlintrc
